@@ -1,5 +1,5 @@
 import { useParams } from 'react-router-dom'
-import { useSuperHeroData } from '../hooks/useSuperHereData'
+import { useSuperHeroData } from '../hooks/useSuperHeroData'
 
 export const RQSuperHeroPage = () => {
   const { heroId } = useParams()
