@@ -22,6 +22,7 @@ export const DependentQueriesPage = ({ email }) => {
             enabled: !!channelId
         }
     )
+    console.log(courses)
 
     return <div>Dependency Queries Page</div>
 }
